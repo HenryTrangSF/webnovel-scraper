@@ -1,0 +1,17 @@
+{
+  "name": "webnovel-scraper",
+  "version": "1.0.0",
+  "description": "A webnovel scraping tool.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "post": "node './lib/index.js'"
+  },
+  "keywords": [],
+  "author": "Henry Trang",
+  "license": "ISC",
+  "dependencies": {
+    "@tryghost/admin-api": "^0.6.0",
+    "dotenv": "^8.1.0",
+    "puppeteer": "^1.20.0"
+  }
+}
